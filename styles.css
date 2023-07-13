@@ -1,0 +1,233 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/*VARIABILI COLORI*/
+
+:root{
+--primo_colore :  hsl(31, 77%, 52%);
+--secondo_colore :  hsl(184, 100%, 22%);
+--terzo_colore:hsl(179, 100%, 13%);
+}
+
+
+body{
+width: 100vw;
+height: 100vh;
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+grid-template-rows: repeat(20,1fr) ;
+color: white;
+font-size: 14px;
+}
+
+.section_all{
+width: 90%;
+height: 95%;
+border-radius: 15px;
+grid-row: 3/20;
+grid-column: 2/11;
+}
+
+section{
+height: 33.33%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding: 10%;
+padding-right: 20%;
+}
+
+section h1{ 
+text-transform: uppercase;
+font-family: 'Big Shoulders Display', cursive;
+font-size: 30px;
+}
+
+section p,button {
+font-family: 'Lexend Deca', sans-serif;
+}
+
+section button{
+width: 40%;
+border-radius: 30px;
+border: 0px;
+padding: 5px;
+}
+
+.sedans{
+border-top-right-radius: 15px;
+border-top-left-radius: 15px ;
+background-color: var(--primo_colore);
+}
+
+.suv{
+background-color: var(--secondo_colore);
+}
+
+.luxury{
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px ; 
+background-color: var(--terzo_colore);
+}
+
+.sedans button {
+color: var(--primo_colore);
+}
+
+.suv button{
+color: var(--secondo_colore) ;
+}
+
+.luxury button{
+color: var(--terzo_colore);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DESKTOP */
+
+
+@media(min-width:700px) {
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/*VARIABILI COLORI*/
+
+:root{
+--primo_colore :  hsl(31, 77%, 52%);
+--secondo_colore :  hsl(184, 100%, 22%);
+--terzo_colore:hsl(179, 100%, 13%);
+}
+
+
+body{
+width: 100vw;
+height: 100vh;
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+grid-template-rows: repeat(20,1fr) ;
+color: white;
+font-size: 14px;
+}
+
+.section_all{
+width: 90%;
+height: 95%;
+border-radius: 15px;
+display: flex;
+flex-direction: row;
+grid-row: 5/17;
+grid-column: 2/11;
+overflow: hidden;
+}
+
+section{
+width: 33.33%;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items:first baseline;
+justify-content: space-around;
+padding: 0%;
+padding-left: 5%;
+text-align: left;
+
+}
+
+section h1{ 
+text-transform: uppercase;
+font-family: 'Big Shoulders Display', cursive;
+font-size: 30px;
+}
+
+section p,button {
+font-family: 'Lexend Deca', sans-serif;
+
+}
+
+section p{
+    width: 40%;
+}
+section button{
+width: 40%;
+border-radius: 30px;
+border: 0px;
+padding: 5px;
+cursor: pointer;
+border: 1px solid white;
+}
+
+.sedans{
+border-top-right-radius: 0px;
+border-top-left-radius: 15px ;
+border-bottom-left-radius: 15px;
+background-color: var(--primo_colore);
+}
+
+.suv{
+background-color: var(--secondo_colore);
+}
+
+.luxury{
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 0px ;
+border-bottom-right-radius: 15px; 
+border-top-right-radius: 15px; 
+background-color: var(--terzo_colore);
+}
+
+.sedans button {
+background-color: var(--primo_colore);
+color: white;
+}
+
+.suv button{
+background-color: var(--secondo_colore) ;
+color: white;
+
+}
+
+.luxury button{
+background-color: var(--terzo_colore);
+color: white;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
