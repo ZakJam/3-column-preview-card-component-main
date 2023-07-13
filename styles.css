@@ -200,22 +200,37 @@ background-color: var(--terzo_colore);
 }
 
 .sedans button {
+background-color:white ;
+color: var(--primo_colore);
+}
+
+.suv button{
+background-color: white;
+color: var(--secondo_colore) ;
+
+}
+
+.luxury button{
+background-color: white ;
+color: var(--terzo_colore);
+}
+
+
+.sedans button:hover {
 background-color: var(--primo_colore);
 color: white;
 }
 
-.suv button{
+.suv button:hover {
 background-color: var(--secondo_colore) ;
 color: white;
 
 }
 
-.luxury button{
+.luxury button:hover{
 background-color: var(--terzo_colore);
 color: white;
 }
-
-
 
 
 
