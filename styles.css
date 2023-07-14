@@ -173,7 +173,10 @@ font-family: 'Lexend Deca', sans-serif;
 section p{
 width: 65%;
 color: rgba(255, 255, 255, 0.596);
+position: relative;
+bottom: 30px;
 }
+
 section button{
 width: 55%;
 border-radius: 30px;
