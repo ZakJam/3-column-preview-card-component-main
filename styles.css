@@ -15,20 +15,20 @@ box-sizing: border-box;
 
 body{
 width: 100vw;
-height: 100vh;
+height: 150vh;
 display: grid;
-grid-template-columns: repeat(10, 1fr);
-grid-template-rows: repeat(20,1fr) ;
+grid-template-columns: repeat(8, 1fr);
+grid-template-rows: repeat(10,1fr) ;
 color: white;
 font-size: 14px;
 }
 
 .section_all{
-width: 90%;
-height: 95%;
+width: 100%;
+height: 100%;
 border-radius: 15px;
-grid-row: 3/20;
-grid-column: 2/11;
+grid-row: 2/10;
+grid-column: 2/8;
 }
 
 section{
@@ -51,7 +51,7 @@ font-family: 'Lexend Deca', sans-serif;
 }
 
 section button{
-width: 40%;
+width: 60%;
 border-radius: 30px;
 border: 0px;
 padding: 5px;
@@ -127,20 +127,22 @@ body{
 width: 100vw;
 height: 100vh;
 display: grid;
-grid-template-columns: repeat(10, 1fr);
-grid-template-rows: repeat(20,1fr) ;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(6,1fr) ;
 color: white;
 font-size: 14px;
 }
 
 .section_all{
-width: 90%;
-height: 95%;
+width: 100%;
+height: 100%; 
 border-radius: 15px;
 display: flex;
 flex-direction: row;
-grid-row: 5/17;
-grid-column: 2/11;
+justify-content: center;
+align-items: center;
+grid-row: 2/6;
+grid-column: 2/5;
 overflow: hidden;
 }
 
@@ -169,10 +171,11 @@ font-family: 'Lexend Deca', sans-serif;
 }
 
 section p{
-    width: 40%;
+width: 65%;
+color: rgba(255, 255, 255, 0.596);
 }
 section button{
-width: 40%;
+width: 60%;
 border-radius: 30px;
 border: 0px;
 padding: 5px;
@@ -182,8 +185,8 @@ border: 1px solid white;
 
 .sedans{
 border-top-right-radius: 0px;
-border-top-left-radius: 15px ;
-border-bottom-left-radius: 15px;
+border-top-left-radius: 2px ;
+border-bottom-left-radius: 2px;
 background-color: var(--primo_colore);
 }
 
@@ -192,15 +195,15 @@ background-color: var(--secondo_colore);
 }
 
 .luxury{
-border-bottom-right-radius: 15px;
+border-bottom-right-radius: 2px;
 border-bottom-left-radius: 0px ;
-border-bottom-right-radius: 15px; 
-border-top-right-radius: 15px; 
+border-bottom-right-radius: 2px; 
+border-top-right-radius: 2px; 
 background-color: var(--terzo_colore);
 }
 
 .sedans button {
-background-color:white ;
+background-color:white;
 color: var(--primo_colore);
 }
 
