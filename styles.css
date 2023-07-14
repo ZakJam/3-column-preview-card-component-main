@@ -160,18 +160,16 @@ justify-content: space-around;
 padding: 0%;
 padding-left: 5%;
 text-align: left;
-
 }
 
 section h1{ 
 text-transform: uppercase;
 font-family: 'Big Shoulders Display', cursive;
-font-size: 30px;
+font-size: 40px;
 }
 
 section p,button {
 font-family: 'Lexend Deca', sans-serif;
-
 }
 
 section p{
