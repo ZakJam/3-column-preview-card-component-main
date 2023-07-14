@@ -50,6 +50,10 @@ section p,button {
 font-family: 'Lexend Deca', sans-serif;
 }
 
+section p{
+    color: rgba(255, 255, 255, 0.596);
+}
+
 section button{
 width: 60%;
 border-radius: 30px;
